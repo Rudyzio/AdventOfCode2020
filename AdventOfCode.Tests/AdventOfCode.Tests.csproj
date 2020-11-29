@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.7.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.3.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Day 01 Solver\Day 01 Solver.csproj" />
+    <ProjectReference Include="..\Day 02 Solver\Day 02 Solver.csproj" />
+    <ProjectReference Include="..\Day 03 Solver\Day 03 Solver.csproj" />
+    <ProjectReference Include="..\Day 04 Solver\Day 04 Solver.csproj" />
+    <ProjectReference Include="..\Day 05 Solver\Day 05 Solver.csproj" />
+    <ProjectReference Include="..\Day 06 Solver\Day 06 Solver.csproj" />
+    <ProjectReference Include="..\Day 07 Solver\Day 07 Solver.csproj" />
+    <ProjectReference Include="..\Day 08 Solver\Day 08 Solver.csproj" />
+    <ProjectReference Include="..\Day 09 Solver\Day 09 Solver.csproj" />
+    <ProjectReference Include="..\Day 10 Solver\Day 10 Solver.csproj" />
+    <ProjectReference Include="..\Day 11 Solver\Day 11 Solver.csproj" />
+    <ProjectReference Include="..\Day 12 Solver\Day 12 Solver.csproj" />
+    <ProjectReference Include="..\Day 13 Solver\Day 13 Solver.csproj" />
+    <ProjectReference Include="..\Day 14 Solver\Day 14 Solver.csproj" />
+    <ProjectReference Include="..\Day 15 Solver\Day 15 Solver.csproj" />
+    <ProjectReference Include="..\Day 16 Solver\Day 16 Solver.csproj" />
+    <ProjectReference Include="..\Day 17 Solver\Day 17 Solver.csproj" />
+    <ProjectReference Include="..\Day 18 Solver\Day 18 Solver.csproj" />
+    <ProjectReference Include="..\Day 19 Solver\Day 19 Solver.csproj" />
+    <ProjectReference Include="..\Day 20 Solver\Day 20 Solver.csproj" />
+    <ProjectReference Include="..\Day 21 Solver\Day 21 Solver.csproj" />
+    <ProjectReference Include="..\Day 22 Solver\Day 22 Solver.csproj" />
+    <ProjectReference Include="..\Day 23 Solver\Day 23 Solver.csproj" />
+    <ProjectReference Include="..\Day 24 Solver\Day 24 Solver.csproj" />
+    <ProjectReference Include="..\Day 25 Solver\Day 25 Solver.csproj" />
+  </ItemGroup>
+
+</Project>
