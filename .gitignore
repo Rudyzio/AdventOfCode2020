@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 Reveal.WebPortal.FrontEnd.MVC/Webpack/stats.json
+
+.vscode/
